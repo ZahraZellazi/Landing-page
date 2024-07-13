@@ -1,0 +1,41 @@
+.search-container {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Makes the corners more curved */
+    padding: 10px;
+    width: 400px;
+    background-color: rgba(248, 243, 243, 0.8); /* Foggy white/gray color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+    transition: all 0.3s ease;
+}
+.search-container:hover {
+    background-color: rgba(200, 200, 200, 0.8); /* Darker background on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+#search-input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 5px;
+    background: transparent;
+    color: #333;
+}
+
+#search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#search-button svg {
+    width: 20px;
+    height: 20px;
+    color: #333; /* Icon color */
+}

@@ -1,0 +1,71 @@
+.boxes-container {
+    position: fixed;
+    top: 200px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column; /* Stack the boxes vertically */
+    gap: 10px; /* Space between boxes */
+}
+
+.box1 {
+    background-color: rgba(150, 147, 147, 0.7); /* Semi-transparent dark background */
+    padding: 10px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the icon and the text */
+    width: 200px; /* Set a width to make it rectangular */
+    height: 100px; /* Set a height that keeps it close to a square */
+}
+
+.box2 {
+    background-color: rgba(150, 147, 147, 0.7); /* Semi-transparent dark background */
+    padding: 10px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the icon and the text */
+    width: 200px; /* Set a width to make it rectangular */
+    height: 100px; /* Set a height that keeps it close to a square */
+}
+
+.box3 {
+    background-color: rgba(150, 147, 147, 0.7); /* Semi-transparent dark background */
+    padding: 10px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the icon and the text */
+    width: 200px; /* Set a width to make it rectangular */
+    height: 100px; /* Set a height that keeps it close to a square */
+}
+
+
+
+.icon-container {
+    background-color: #68bce7; /* Light blue background for the icon */
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 24px; /* Adjust as needed for the icon size */
+}
+
+.box1 h2 {
+    font-size: 20px; /* Adjust as needed */
+    margin: 0;
+}
+
+.box1 p {
+    font-size: 1rem; /* Adjust as needed */
+    margin: 5px 0 0;
+}
