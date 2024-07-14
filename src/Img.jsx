@@ -1,10 +1,10 @@
 import "./Img.css";
 import React from 'react';
-
+import Icons from "./Icons";
 const Img = () => {
     return (
         <div className="background">
-            {/* You can add other content here if needed */}
+            <Icons/>
         </div>
     );
 }

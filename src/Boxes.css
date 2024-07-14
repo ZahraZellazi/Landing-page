@@ -98,13 +98,14 @@
             flex-direction: row; /* Stack boxes vertically */
             align-items: center; /* Center boxes horizontally */
             margin-top: 200px;
+            margin-left: 20px;
         }
     
         .box1,
         .box2,
         .box3 {
             margin: 10px 0; /* Vertical spacing between boxes */
-            width: 90%; /* Adjust width for smaller screens */
+            width: 50%; /* Adjust width for smaller screens */
             padding :10px;
         }
 }

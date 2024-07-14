@@ -1,0 +1,14 @@
+.icons-container {
+    display: flex;
+    gap: 20px; /* Space between icons */
+}
+
+.icon {
+    font-size: 2rem; /* Adjust size as needed */
+    color: white; /* Change color based on your background */
+    transition: transform 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.2); /* Scale effect on hover */
+}

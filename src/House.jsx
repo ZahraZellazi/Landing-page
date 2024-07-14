@@ -4,6 +4,7 @@ import './House.css';
 import Text from './Text';
 import Boxes from './Boxes';
 import Img from './Img';
+import Icons from './Icons';
 const House = () => {
     return (
       <div>
@@ -11,6 +12,7 @@ const House = () => {
       <Text/>
       <Boxes/>
       <Img/>
+      <Icons/>
         </div>
   
 
