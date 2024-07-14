@@ -14,7 +14,7 @@
 }
 .search-container:hover {
     background-color: rgba(200, 200, 200, 0.8); /* Darker background on hover */
-    transform: scale(1.05); /* Slightly increase size on hover */
+    transform: scale(1.15); /* Slightly increase size on hover */
 }
 
 #search-input {
