@@ -6,9 +6,9 @@ import "./Icons.css"
 const Icons = () => {
     return (
         <div className="icons-container">
-            <CiUser className="icon" />
-            <CiMenuBurger className="icon" />
-            <RiSoundModuleLine className="icon" />
+            <CiUser className="iconU" />
+            <CiMenuBurger className="iconM" />
+            <RiSoundModuleLine className="iconS" />
         </div>
     );
 }

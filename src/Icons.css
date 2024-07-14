@@ -1,14 +1,32 @@
-.icons-container {
-    display: flex;
-    gap: 20px; /* Space between icons */
+body {
+    background-color: white; /* Set background color */
 }
 
-.icon {
+.iconU, .iconM, .iconS {
     font-size: 2rem; /* Adjust size as needed */
-    color: white; /* Change color based on your background */
+    color: black; /* Change icons to black */
     transition: transform 0.3s;
 }
 
-.icon:hover {
+.iconM {
+    margin-top: 25px; /* Positioning for the top-left icon */
+    margin-left: 0; /* Align to the left */
+}
+
+.iconU, .iconS {
+    display: inline-block; /* Place icons next to each other */
+    margin-left: 20px; /* Adjust space between icons */
+    margin-top: 25px; /* Align with the top */
+    float: right; /* Position icons on the top right */
+}
+
+
+.iconU:hover {
+    transform: scale(1.2); /* Scale effect on hover */
+}
+.iconM:hover {
+    transform: scale(1.2); /* Scale effect on hover */
+}
+.iconS:hover {
     transform: scale(1.2); /* Scale effect on hover */
 }
