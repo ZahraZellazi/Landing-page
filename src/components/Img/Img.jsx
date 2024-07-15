@@ -1,6 +1,6 @@
 import "./Img.css";
 import React from 'react';
-import Icons from "./Icons";
+import Icons from "./Icons/Icons";
 const Img = () => {
     return (
         <div className="background">

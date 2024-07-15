@@ -1,10 +1,10 @@
 import React from 'react';
-import SearchBar from './SearchBar';
+import SearchBar from '../SearchBar/SearchBar';
 
-import Text from './Text';
-import Boxes from './Boxes';
-import Img from './Img';
-import Icons from './Icons';
+import Text from '../Text/Text';
+import Boxes from '../Boxes/Boxes';
+import Img from '../Img';
+import Icons from '../Icons/Icons';
 const House = () => {
     return (
       <div>

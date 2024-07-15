@@ -1,10 +1,11 @@
 import React from 'react';
-import House from './House';
+import House from './components/House/House';
 
 const App = () => {
     return (
-        <div>
+        <div style={{overflow : "hidden"}}>
             <House />
+            
         </div>
     );
 }
