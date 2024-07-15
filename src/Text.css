@@ -27,22 +27,6 @@
     color: #ffffff; 
 }
 
-
-.centered {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform: scale(1.5);
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
-    background-color: rgba(255, 255, 255, 0.9); 
-    z-index: 1000; 
-}
 .p{
     color: white;
 }
