@@ -5,21 +5,21 @@
     display: flex;
     align-items: center;
     border: 1px solid #ccc;
-    border-radius: 20px; /* Makes the corners more curved */
+    border-radius: 20px; 
     padding: 10px;
     width: 400px;
-    background-color: rgba(248, 243, 243, 0.8); /* Foggy white/gray color */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+    background-color: rgba(248, 243, 243, 0.8); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     z-index: 10;
-    position: fixed; /* Change to fixed for centering */
-    top: 0%; /* Center vertically */
-    left: 50%; /* Center horizontally */
+    position: fixed; 
+    top: 0%; 
+    left: 50%; 
     transform: translate(-50%, -50%);
     
 }
 .search-container:hover {
-    background-color: rgba(200, 200, 200, 0.8); /* Darker background on hover */
+    background-color: rgba(200, 200, 200, 0.8);  
 
 }
 
@@ -43,5 +43,5 @@
 #search-button svg {
     width: 20px;
     height: 20px;
-    color: #333; /* Icon color */
+    color: #333 ;
 }

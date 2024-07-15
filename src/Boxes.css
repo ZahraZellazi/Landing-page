@@ -1,23 +1,23 @@
 .boxes-container {
     position: fixed;
-    top: 20px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
+    top: 20px; 
+    right: 20px; 
     display: flex;
-    flex-direction: column; /* Stack the boxes vertically */
-    gap: 20px; /* Space between boxes */
+    flex-direction: column;
+    gap: 20px; 
 }
 
 .box {
-    background-color: rgba(150, 147, 147, 0.7); /* Semi-transparent dark background */
+    background-color: rgba(150, 147, 147, 0.7); 
     padding: 20px;
-    border-radius: 15px; /* Rounded corners */
+    border-radius: 15px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    color: white; /* Ensure text is fully opaque */
+    color: white; 
     display: flex;
     align-items: center;
-    gap: 10px; /* Space between the icon and the text */
-    width: 200px; /* Set a width to make it rectangular */
-    height: 100px; /* Set a height that keeps it close to a square */
+    gap: 10px; 
+    width: 200px; 
+    height: 100px; 
 }
 
 .box:hover {
@@ -25,27 +25,23 @@
 }
 
 .box1 {
-    background-color: rgba(150, 147, 147, 0.7); /* Semi-transparent dark background */
-    margin-top: 150px; /* Top margin for box1 */
-    margin-right: 100px; /* Right margin for box1 */
-     /* Bottom margin for box1 */
-    margin-left: 1200px; /* Left margin for box1 */
+    background-color: rgba(150, 147, 147, 0.7); 
+    margin-top: 150px; 
+    margin-right: 100px; 
+    margin-left: 1200px;
 }
 
 .box2 {
-    background-color: rgba(150, 147, 147, 0.7); /* Semi-transparent dark background */
-     /* Top margin for box2 */
-    margin-right: 200px; /* Right margin for box2 */
-     /* Bottom margin for box2 */
-    margin-left: 1000px; /* Left margin for box2 */
+    background-color: rgba(150, 147, 147, 0.7); 
+    margin-right: 200px; 
+    margin-left: 1000px; 
 }
 
 .box3 {
-    background-color: rgba(150, 147, 147, 0.7); /* Semi-transparent dark background */
-     /* Top margin for box1 */
-    margin-right: 100px; /* Right margin for box1 */
-    margin-bottom: 20px; /* Bottom margin for box1 */
-    margin-left: 1200px; /* Left margin for box1 */
+    background-color: rgba(150, 147, 147, 0.7); 
+    margin-right: 100px; 
+    margin-bottom: 20px; 
+    margin-left: 1200px; 
 }
 
 
@@ -53,50 +49,49 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%; /* Circle shape */
+    border-radius: 50%; 
     padding: 10px;
-    width: 40px; /* Adjust as needed */
-    height: 40px; /* Adjust as needed */
-    font-size: 20px; /* Adjust as needed */
+    width: 40px; 
+    height: 40px; 
+    font-size: 20px; 
 }
-
 .icon-container1 {
-    background-color: #d794dd; /* Light purple background for the icon */
+    background-color: #d794dd; 
 }
 
 .icon-container2 {
-    background-color: #89c2df; /* Light blue background for the icon */
+    background-color: #89c2df; 
 }
 
 .icon-container3 {
-    background-color: #ea9fb4; /* Light pink background for the icon */
+    background-color: #ea9fb4; 
 }
 
 .icon {
-    font-size: 2rem; /* Adjust icon size as needed */
-    color: rgb(255, 255, 255); /* Icon color */
+    font-size: 2rem; 
+    color: rgb(255, 255, 255); 
 }
 
 .box-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: white; /* Ensure text is fully opaque */
+    color: white; 
 }
-
 .box-content h2 {
-    font-size: 1.2rem; /* Adjust as needed */
+    font-size: 1.2rem; 
     margin: 0;
 }
 
 .box-content p {
-    font-size: 1rem; /* Adjust as needed */
+    font-size: 1rem;
     margin: 5px 0 0;
 }
+
 @media (max-width: 1080px) {
         .boxes-container {
-            flex-direction: row; /* Stack boxes vertically */
-            align-items: center; /* Center boxes horizontally */
+            flex-direction: row;
+            align-items: center; 
             margin-top: 200px;
             margin-left: 20px;
         }
@@ -104,9 +99,8 @@
         .box1,
         .box2,
         .box3 {
-            margin: 10px 0; /* Vertical spacing between boxes */
-            width: 50%; /* Adjust width for smaller screens */
+            margin: 10px 0; 
+            width: 50%;
             padding :10px;
         }
-}
-    
+    }

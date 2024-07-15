@@ -1,37 +1,36 @@
 body {
-    background-color: white; /* Set background color */
+    background-color: white; 
 }
 
 .iconU, .iconM, .iconS {
-    font-size: 2rem; /* Adjust size as needed */
-    color: white; /* Change icons to black */
+    font-size: 2rem; 
+    color: white; 
     transition: transform 0.3s , font-weight 0.3s ;
 }
 
 .iconM {
-    margin-top: 25px; /* Positioning for the top-left icon */
-    margin-left: 30px; /* Align to the left */
-
+    margin-top: 25px; 
+    margin-left: 30px;
 }
 
 .iconU, .iconS {
-    display: inline-block; /* Place icons next to each other */
-    margin-left: 0px; /* Adjust space between icons */
-    margin-top: 25px; /* Align with the top */
-    float: right; /* Position icons on the top right */
+    display: inline-block; /*icons next to each other */
+    margin-left: 0px; 
+    margin-top: 25px;
+    float: right;
     margin-right: 40px;
 }
 
 
 .iconU:hover {
-    transform: scale(1.3); /* Scale effect on hover */
+    transform: scale(1.3); 
     font-weight: bold;
 }
 .iconM:hover {
-    transform: scale(1.3); /* Scale effect on hover */
+    transform: scale(1.3); 
     font-weight: bold;
 }
 .iconS:hover {
-    transform: scale(1.2); /* Scale effect on hover */
+    transform: scale(1.2); 
     font-weight: bold;
 }
